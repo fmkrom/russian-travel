@@ -1,0 +1,8 @@
+@import "./__item/photo-grid__item.css";
+
+.photo__grid {
+    width: 1184px;
+    height: 671px;
+    margin:0 auto;
+    padding:0;
+}

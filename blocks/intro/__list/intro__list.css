@@ -1,0 +1,15 @@
+.intro__list {
+width: 690px;
+height: 90px;
+
+list-style-type: none;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+}
+
+/*ВАЖНО! В этом блоке разобраться с форматом списка!*/

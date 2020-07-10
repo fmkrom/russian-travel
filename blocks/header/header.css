@@ -1,0 +1,19 @@
+@import "./__logo/header__logo.css";
+
+@import "./__lang-link/header__lang-link.css";
+
+.header {
+width: 1184px;
+height: 52px;
+margin-left: 48px;
+margin-right: 48px;
+margin-top: 28px;
+
+display:flex;
+flex-direction: row;
+align-items: flex-start;
+
+}
+
+/*ВАЖНО! В шапке вернуться к верстке языковых ссылок!*/
+/*Подумать, как их расположить!*/

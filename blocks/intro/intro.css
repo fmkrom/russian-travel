@@ -1,0 +1,15 @@
+@import "./__list/intro__list.css";
+@import "./__text/intro__text.css";
+@import "./__title/intro__title.css";
+
+.intro {
+    width: 690px;
+    height: 428px;
+    
+    margin-top:92px;
+    margin-left:148px;
+    margin-right:0 auto;
+    margin-bottom: 92px;
+    
+    padding-top:0;
+}
