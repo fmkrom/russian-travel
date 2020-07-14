@@ -1,0 +1,13 @@
+@import "./__background/cover__background.css";
+@import "./__overlay/cover__overlay.css";
+@import "./__subtitle/cover__subtitle.css";
+@import "./__title/cover__title.css"; 
+
+.cover {
+    width: 1184px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 92px;
+    padding:0;
+    
+}

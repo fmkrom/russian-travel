@@ -2,3 +2,48 @@
 @import "./__parapraph/place__parapraph.css";
 @import "./__title/place__title.css";
 @import "./__website/place__website.css";
+@import "./__text/place__text.css";
+@import "./__title-block/place__title-block.css";
+
+.place {
+    margin-top: 103px;
+    max-width: 984px;
+    max-height: 660px;
+    
+    display: grid;
+    
+    grid-template-rows: minmax(160px, 1fr) minmax(460px, 1fr); 
+    grid-template-columns: minmax(460px, 1fr) minmax(460px, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 48px;
+    
+    /*background-color: chartreuse;*/
+    justify-content: space-between;
+    align-content: center;
+
+    grid-template-areas:
+    "title website"
+    "image text"
+    
+    
+  
+}
+
+/*display: grid;
+    
+    grid-template-areas:
+    "title website"
+    "image text"
+    
+    grid-template-columns: 248px 248px; 
+    
+    /*(auto-fit, minmax (248px, 1fr));*/
+
+/*    grid-template-rows: 248px 248px; 
+*/ */ */
+    
+/*  height: auto;
+    width: 984px;
+    height: auto;
+    height: 660px;
+    margin:0 auto; */

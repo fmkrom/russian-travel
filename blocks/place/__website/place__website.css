@@ -1,0 +1,22 @@
+.place__website {
+   grid-area: website;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+  
+}
+
+/*width: max-content;
+    height: max-content;
+    align-self: bottom;
+    background-color: crimson;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    display: inline-block;
+   vertical-align: bottom;
+    
+    */

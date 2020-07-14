@@ -1,11 +1,12 @@
 @import "./__list/intro__list.css";
 @import "./__text/intro__text.css";
 @import "./__title/intro__title.css";
+@import "./__list-item/intro__list-item.css";
 
 .intro {
     width: 690px;
-    height: 428px;
-    
+    height: max-content;
+        
     margin-top:92px;
     margin-left:148px;
     margin-right:0 auto;

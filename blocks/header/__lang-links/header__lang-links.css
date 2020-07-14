@@ -1,0 +1,7 @@
+.header__lang-links {
+    width:max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

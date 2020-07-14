@@ -1,0 +1,9 @@
+.place__title-block 
+{
+    grid-area: title;
+   
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+        
+}

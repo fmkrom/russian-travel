@@ -1,5 +1,7 @@
 @import "./__logo/header__logo.css";
 
+@import "./__lang-links/header__lang-links.css";
+
 @import "./__lang-link/header__lang-link.css";
 
 .header {
@@ -11,7 +13,8 @@ margin-top: 28px;
 
 display:flex;
 flex-direction: row;
-align-items: flex-start;
+justify-content: space-between;
+align-items: flex-end;
 
 }
 
