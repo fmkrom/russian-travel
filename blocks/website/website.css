@@ -1,2 +1,8 @@
 @import "./__url-heading/website__url-heading.css";
 @import "./__url-link/website__url-link.css";
+
+@media screen and (max-width: 320px) {
+    .website {
+       display: none;
+    }
+ }

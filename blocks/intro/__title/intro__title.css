@@ -8,5 +8,50 @@ font-style: normal;
 font-weight: 900;
 font-size: 54px;
 line-height: 58px;
-/* identical to box height, or 107% */
+}
+
+
+@media screen and (max-width: 1024px) {
+    .intro__title {
+    margin-top:0;
+    width: 720px;
+    height: 200px;
+  
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    }
+}
+  
+  @media screen and (max-width: 768px) {
+    .intro__title {
+      width: 720px;
+      height: 200px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 96px;
+      line-height: 100px;
+      text-align: center;
+    }
+  
+}
+  
+  @media screen and (max-width: 320px) {
+    .intro__title {
+    width: 288px;
+    height: 88px;
+  
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+  
+    text-align: center;
+  }
+
 }

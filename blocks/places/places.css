@@ -1,6 +1,23 @@
 .places {
     width: 984px;
     height: auto;
-    /*height: 3392px;*/
     margin:0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        width: 320px;
+    }
 }

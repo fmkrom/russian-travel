@@ -1,8 +1,8 @@
+@import "../styles/normalize.css";
+
 @import "../fonts/fonts.css";
 
 @import "../blocks/root/root.css";
-
-@import "../styles/layout.css";
 
 @import "../blocks/header/header.css";
 

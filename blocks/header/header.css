@@ -10,13 +10,43 @@ height: 52px;
 margin-left: 48px;
 margin-right: 48px;
 margin-top: 28px;
+margin-bottom: 48px;
 
 display:flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: flex-end;
-
 }
 
-/*ВАЖНО! В шапке вернуться к верстке языковых ссылок!*/
-/*Подумать, как их расположить!*/
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 928px;
+        height: 52px;
+
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-top: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 720px;
+        height: 52px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: 288px;
+        height: 42px;
+
+        margin-left: 12px;
+        margin-right: 20px;
+        margin-top: 16px;
+    }
+}

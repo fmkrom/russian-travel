@@ -4,19 +4,19 @@
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
-  
+
+   width: 100%;
+   height: 100%;
 }
 
-/*width: max-content;
-    height: max-content;
-    align-self: bottom;
-    background-color: crimson;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    
-    display: inline-block;
-   vertical-align: bottom;
-    
-    */
+@media screen and (max-width: 768px) {
+   .place__website {
+      width: 352px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .place__website {
+      display: none;
+   }
+}

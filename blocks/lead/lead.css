@@ -4,8 +4,40 @@
 @import "./__caption/lead__caption.css";
 
 .lead {
-    padding-top: 56px;
+    height: 1005px;
+    width: 984px;
     margin-left: 148px;
     margin-right:148px;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        height: 962px;
+        width: 928px;
+        margin-left: 47px;
+        margin-right:49px;
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        height: 862px;
+        width: 768px;
+        margin-left: 0;
+        margin-right:0;
+        margin-bottom: 88px;
+    }
+ 
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        height: 406px;
+        width: 320px;
+        margin-left: 0;
+        margin-right:0;
+        margin-bottom: 64px;
+    }
+}

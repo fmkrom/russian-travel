@@ -1,7 +1,10 @@
+@import "./_underline/header__lang-link_underline.css";
+
 .header__lang-link {
 
 width: 30px;
 height: 28px;
+
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -9,4 +12,16 @@ line-height: 28px;
 
 margin-right:0px;
 margin-left:18px;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+
+        width: 22px;
+        height: 24px;
+    }   
 }

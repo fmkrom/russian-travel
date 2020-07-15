@@ -4,17 +4,55 @@
     left: 312px;
     right: 312px;
     bottom: 343px;
-    
-    z-index: 1;
-    font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-/* or 106% */
-text-align: center;
-margin:0 auto;
 
-width: 560px;
-height: auto;
+    z-index: 1;
+
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    
+    text-align: center;
+    
+    width: 560px;
+    height: 152px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title  {
+        top: 195px;
+        left: 232px;
+        right: 232px;
+        bottom:293px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title  {
+        top: 115px;
+        left: 104px;
+        right: 104px;
+        bottom: 213px;
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title  {
+        top: 33px;
+        left: 16px;
+        right: 16px;
+        bottom: 97px;
+        
+        font-size:32px;
+        line-height:35px;
+
+        max-width: 288px;
+        height: 70px;
+        
+    }    
 }

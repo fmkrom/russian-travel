@@ -1,4 +1,5 @@
 @import "./__links/footer__links.css";
+@import "./__link/footer__link.css";
 @import "./__copyright/footer__copyright.css";
 
 .footer {
@@ -11,7 +12,45 @@
     align-self: center;
 
     display:flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-top: 92px;
+        margin-bottom: 24px;
+        width: 928px;
+        height: 18px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-top: 92px;
+        margin-bottom: 24px;
+        width: 720px;
+        height: 18px;
+        margin-left: 24px;
+        margin-right: 24px;
+        align-self: center;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        width: 200px;
+        height: max-content;
+                
+        margin-left: 16px;
+        margin-top: 64px;
+        margin-bottom: 24px;
+            
+        display:flex;
+        flex-direction:column;
+    }
 }
