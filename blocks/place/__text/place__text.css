@@ -1,25 +1,28 @@
 .place__text {
     grid-area: text;
     width: 100%;
-    height: max-content;
+    min-height: 460px;
 }
 
 
 @media screen and (max-width: 1024px) {
     .place__text {
-        width: 456px;
+        width: 100%;
+        min-height: 440px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__text {
-        width: 352px;
+        width: 100%;
+        min-height: 340px;
     }    
 }
 
 @media screen and (max-width: 320px) {
     .place__text {
-        width: 288px;
+        width: 100%;
+        height: max-content;
     }
 }
 

@@ -1,7 +1,14 @@
 .cover__overlay {
-    width: 1184px;
+    max-width: 1184px;
     height: 740px;
-    position: relative;
+        
+    grid-column-start: 1;
+    grid-column-end: 6;
+    
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+    z-index:0;
 }
 
 @media screen and (max-width: 1024px) {

@@ -3,11 +3,32 @@ body {
 }
 
 .page {
+    width:1280px;
+    
     background-color:#25282b;
     font-family: "Inter", "Arial", sans-serif;
     color: #FFFFFF;
-    max-width: 1280px;
     height: auto;
-    /*height: 6874px;*/
     margin: 0 auto;
+   
 }
+
+@media screen and (max-width: 1024px) {
+    .page {
+        width:1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        width:768px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .page {
+        width:320px;
+    }
+}
+

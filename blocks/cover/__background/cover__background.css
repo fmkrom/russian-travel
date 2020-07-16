@@ -1,8 +1,7 @@
 .cover__background {
     width: 1184px;
     height: 740px;
-    object-fit: cover;
-
+    
     opacity: 0.3; 
     z-index: 0;
 }

@@ -4,10 +4,9 @@
 @import "./__caption/lead__caption.css";
 
 .lead {
-    height: 1005px;
-    width: 984px;
-    margin-left: 148px;
-    margin-right:148px;
+    height: max-content;
+    max-width: 984px;
+    margin: 0 auto;
 }
 
 

@@ -9,20 +9,13 @@
         
     margin-top:92px;
     margin-left:148px;
-    margin-right:0 auto;
+    margin-right:442px;
     margin-bottom: 92px;
-    
-    padding-top:0;
 }
-
 
 @media screen and (max-width: 1024px) {
     .intro {
-    width: 690px;
-    height: max-content;
-    margin-top:92px;
-    margin-left:47px;
-    margin-bottom: 92px;
+    margin-left:48px;
     }
 }
 
