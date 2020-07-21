@@ -6,22 +6,27 @@
 @import "./__title-block/place__title-block.css";
 
 .place {
+    
+    width: 100%;
+    
     margin-top: 0px;
     margin-bottom: 80px;
+
+    padding: 0;
+
     width: 100%;
     height: auto;
         
     display: grid;
     
-    grid-template-rows: 160px, minmax(460px, 1fr);
-    grid-template-columns: minmax(460px, 1fr) minmax(460px, 1fr);
-    
-    grid-column-gap: 40px;
+    grid-template-columns: 46% 46%;
+    grid-template-rows: auto auto;
+
     grid-row-gap: 48px;
-        
+            
+    align-content: space-between;
     justify-content: space-between;
-    align-content: center;
-    
+
     grid-template-areas:
     "title website"
     "image text"
@@ -31,6 +36,12 @@
 .place:last-of-type {
     margin-bottom: 0;
       
+}
+
+@media screen and (min-width: 1281px) {
+    .place {
+    justify-content: space-around;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -51,7 +62,7 @@
  
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place {
     margin-bottom: 48px;
     
@@ -65,10 +76,9 @@
     "title"
     "image"
     "text"
-
-    
     }
 }
+
 
 
 

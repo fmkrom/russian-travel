@@ -1,63 +1,75 @@
 @import "./__item/photo-grid__item.css";
 
 .photo-grid {
-    max-width: 1184px;
-    max-height: 671px;
+      
+    width: 92.5%;
+    height: auto;
 
     margin: 0 auto;
-    padding: 0;
-
+    
     margin-bottom:80px;
 
     display: grid;
-    grid-template-columns: repeat(4, max-content);
-    grid-template-rows: repeat(3, max-content);
     
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
+    grid-template-columns: repeat(4, 23.98%);
+    grid-template-rows: repeat(3, 31.74%);
     
-    justify-content: center;
-    align-content: center;
+    grid-column-gap: 1.36%;
+    grid-row-gap: 2.39%;
+    
+    justify-content: space-between;
+    align-content: space-between;
+   
 }
+
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-    max-width: 928px;
-    max-height: 942px;
-   
+    width: 90%;
+       
     margin-bottom: 92px;
 
-    grid-template-columns: repeat(3, max-content);
-    grid-template-rows: repeat(4, max-content);
-    grid-column-gap: 14px;
-    grid-row-gap: 14px;
+    grid-template-columns: repeat(3, 32.34%);
+    grid-template-rows: repeat(4, 23.86%);
+    
+    grid-column-gap: 1.48%;
+    grid-row-gap: 1.50%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-    max-width: 720;
-    max-height: 1664px;
-
-    grid-template-columns: repeat(2, max-content);
-    grid-template-rows: repeat(6, max-content);
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
+    max-width: 93%;
     
+    grid-template-columns: repeat(2, 48.88%);
+    grid-template-rows: repeat(6, 15.80%);
+    grid-column-gap: 2.22%;
+    grid-row-gap: 1%;
     }
 }
 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .photo-grid {
-    max-width: 288px;
-    max-height: 2724px;
-
-    grid-template-columns: repeat(1, max-content);
-    grid-template-rows: repeat(12, max-content);
+    max-width: 90%;
     
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(12, 7.8%);
+        
+    grid-row-gap: 0.46%;
     }
 }
 
+
+/*@media screen and (min-width: 1281px) {
+    .photo-grid {
+    justify-content: center;
+    }
+}
+
+@media screen and (max-width:1279px) {
+    .photo-grid {
+    grid-template-columns: repeat(3, max-content);
+    grid-template-rows: repeat(4, max-content);
+    justify-content: center;
+    }
+}*/

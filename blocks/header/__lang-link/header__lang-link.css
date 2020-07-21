@@ -1,8 +1,8 @@
 @import "./_underline/header__lang-link_underline.css";
 
 .header__lang-link {
-
 width: 30px;
+height: auto;
 
 font-style: normal;
 font-weight: normal;
@@ -19,8 +19,6 @@ margin-left:18px;
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
-
         width: 22px;
-        height: 24px;
     }   
 }

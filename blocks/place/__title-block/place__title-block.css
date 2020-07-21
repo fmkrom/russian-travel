@@ -1,15 +1,18 @@
 .place__title-block 
 {
    grid-area: title;
+   
+   width: auto;
+   height: auto;
+
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
 
-   width: 460px;
 }
 
 
-
+/*
 @media screen and (max-width: 1024px) {
     .place__title-block {
      width: 440px;
@@ -22,6 +25,7 @@
     }
 }
 
+*/
 
 @media screen and (max-width: 320px) {
     .place__title-block {

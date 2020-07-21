@@ -1,9 +1,10 @@
 .place__text {
     grid-area: text;
     width: 100%;
-    min-height: 460px;
+    height: auto;
 }
 
+/*
 
 @media screen and (max-width: 1024px) {
     .place__text {
@@ -25,4 +26,5 @@
         height: max-content;
     }
 }
+*/
 

@@ -3,32 +3,33 @@ body {
 }
 
 .page {
-    width:1280px;
-    
+    width: 99.8%;
+    margin: 0 auto;
+    margin-left:0;
+    margin-right:0;
+
     background-color:#25282b;
     font-family: "Inter", "Arial", sans-serif;
     color: #FFFFFF;
-    height: auto;
-    margin: 0 auto;
-   
+    height: auto;      
 }
 
 @media screen and (max-width: 1024px) {
     .page {
-        width:1024px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .page {
-        width:768px;
+        width: 100%;
     }
 }
 
 
 @media screen and (max-width: 320px) {
     .page {
-        width:320px;
+        width: 100%;
     }
 }
 

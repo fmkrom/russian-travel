@@ -3,14 +3,14 @@
 @import "./__copyright/footer__copyright.css";
 
 .footer {
+    max-width: 92%;
+    height: auto;
+
+    margin: 0 auto;
+    
     margin-top: 92px;
     margin-bottom: 24px;
-    max-width: 1184px;
-    height: 18px;
-    margin-left: 48px;
-    margin-right: 48px;
-    align-self: center;
-
+    
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,32 +19,49 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
+        max-width: 90%;
+        height: max-content;
+        margin: 0 auto;
+
         margin-top: 92px;
         margin-bottom: 24px;
-        width: 928px;
-        height: 18px;
-        margin-left: 48px;
-        margin-right: 48px;
+        
     }
 }
 
 @media screen and (max-width: 768px) {
     .footer {
+        max-width: 93%;
+        height: max-content;
+        margin: 0 auto;
+
         margin-top: 88px;
         margin-bottom: 24px;
-        width: 720px;
-        height: 18px;
-        margin-left: 24px;
-        margin-right: 24px;
-        align-self: center;
-        
     }
 }
-
-@media screen and (max-width: 320px) {
+/*
+@media screen and (max-width: 767px) {
     .footer {
-        width: 200px;
-        height: max-content;
+        max-width: 62%;
+        height: auto;
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+
+        margin: 0 auto;
+        margin-top: 64px;
+        margin-bottom: 24px;
+                
+    }
+}
+*/
+
+@media screen and (max-width: 767px) {
+    .footer {
+        max-width: 62%;
+        height: auto;
                 
         margin-left: 16px;
         margin-top: 64px;
@@ -52,5 +69,7 @@
             
         display:flex;
         flex-direction:column;
+        justify-content: flex-start;
+        align-items: baseline;
     }
 }

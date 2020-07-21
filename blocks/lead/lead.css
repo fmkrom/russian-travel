@@ -4,39 +4,33 @@
 @import "./__caption/lead__caption.css";
 
 .lead {
+    width: 76%;
     height: max-content;
-    max-width: 984px;
     margin: 0 auto;
+
+    overflow: hidden;
 }
 
 
 @media screen and (max-width: 1024px) {
     .lead {
-        height: 962px;
-        width: 928px;
-        margin-left: 47px;
-        margin-right:49px;
+        width: 90%;
         margin-bottom: 92px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        height: 862px;
-        width: 768px;
-        margin-left: 0;
-        margin-right:0;
+        width: 99%;
         margin-bottom: 88px;
     }
  
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead {
-        height: 406px;
-        width: 320px;
-        margin-left: 0;
-        margin-right:0;
+        width: 99%;
         margin-bottom: 64px;
     }
+ 
 }
