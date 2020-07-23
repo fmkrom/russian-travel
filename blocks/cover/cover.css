@@ -1,56 +1,51 @@
 @import "./__background/cover__background.css";
 @import "./__overlay/cover__overlay.css";
 @import "./__subtitle/cover__subtitle.css";
-@import "./__title/cover__title.css"; 
+@import "./__title/cover__title.css";
 
 .cover {
     width: 92.5%;
-    height: auto;
+    min-height: 740px;
 
-    margin-top: 89px;
-   
     margin: 0 auto;
-    
-    padding-bottom: 0;
     margin-top: 89px;
 
-    overflow: hidden;
+    background-image: url("../../images/cover-trains.jpg");
+    background-size: cover;
+    background-position: center;
 
+    display: grid;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 53.64% 4.32% 42.04%;
+
+    z-index: 0;
 }
 
-@media screen and (min-width:1281px) {
+@media screen and (max-width: 1024px) {
     .cover {
-        width:99.5%;
-    }
-}
-    
-
-@media screen and (max-width: 1024px){
-    .cover{
         width: 100%;
-        height: auto;
+        min-height: 640px;
+
         margin-top: 88px;
-        }
-     
+
+        grid-template-rows: 54.21% 5% 40.79%;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
-        width: 100%;
-        height: auto;
-        margin-top: 88px;
-        margin: 0 auto;
+        min-height: 480px;
+
+        grid-template-rows: 66.62% 6.66% 37.72%;
     }
- 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover {
-        width: 100%;
-        height: auto;
+        min-height: 200px;
         margin-top: 64px;
 
-        grid-column-gap:0;
+        grid-template-rows: 51.5% 8% 40.5%;
     }
- 
 }

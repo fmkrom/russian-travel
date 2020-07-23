@@ -1,39 +1,41 @@
-.cover__title  {
-    
-    display:inline-block;
+.cover__title {
+    display: inline-block;
     height: auto;
     width: 560px;
 
-    margin:0 auto;
-    
-    padding-bottom:0;
-    padding-top:0;
+    margin: 0 auto;
+
+    padding-bottom: 0;
+    padding-top: 0;
 
     grid-column-start: 1;
     grid-column-end: 2;
-    
+
     grid-row-start: 1;
     grid-row-end: 2;
 
     align-self: end;
     justify-self: center;
-   
+
     z-index: 2;
-    
+
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 1.05;
-    
+
     text-align: center;
 }
 
+.cover__title:hover ~ .cover__overlay {
+    background-color: rgba(42, 44, 47, 0.8);
+}
+
 @media screen and (max-width: 767px) {
-    .cover__title  {
+    .cover__title {
         width: 288px;
-        font-weight: 900;
+
         font-size: 32px;
         line-height: 1.09;
-    
     }
 }

@@ -1,17 +1,17 @@
 .footer__links {
     width: max-content;
     height: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 767px) {
     .footer__links {
         height: 100%;
         width: 200px;
-        
-        display:flex;
-        flex-direction:column;
+
+        flex-direction: column;
 
         padding-bottom: 48px;
-
     }
 }

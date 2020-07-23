@@ -1,35 +1,33 @@
 @import "./__logo/header__logo.css";
-
 @import "./__lang-links/header__lang-links.css";
-
 @import "./__lang-link/header__lang-link.css";
 
 .header {
-width: 93%;
-height: max-content;
+    width: 93%;
+    height: max-content;
 
-margin:0 auto;
+    margin: 0 auto;
 
-margin-top: 28px;
-margin-bottom: 48px;
+    margin-top: 28px;
+    margin-bottom: 48px;
 
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .header {
         width: 90%;
-        margin-top: 28px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
         width: 93%;
-        margin-top: 28px;
     }
 }
 

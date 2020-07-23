@@ -1,18 +1,16 @@
 .footer__link {
-    color:#FFFFFF;
+    color: #ffffff;
     text-decoration: none;
-    display:inline-block;
-    margin-left:0;
-    margin-right:18px;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 18px;
 
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-
 }
 
 .footer__link:hover {
-    color:#FFFFFF;
     opacity: 0.8;
 }
 

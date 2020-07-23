@@ -1,16 +1,20 @@
-@import "./_underline/header__lang-link_underline.css";
+@import "./_blank/header__lang-link_blank.css";
 
 .header__lang-link {
-width: 30px;
-height: auto;
+    width: 30px;
+    height: auto;
 
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
+    color: white;
 
-margin-right:0px;
-margin-left:18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.16;
+
+    margin-right: 0px;
+    margin-left: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header__lang-link:hover {
@@ -20,5 +24,7 @@ margin-left:18px;
 @media screen and (max-width: 320px) {
     .header__lang-link {
         width: 22px;
-    }   
+        font-size: 18px;
+        line-height: 1.33;
+    }
 }

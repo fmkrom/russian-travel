@@ -1,8 +1,26 @@
 @import "./__url-heading/website__url-heading.css";
 @import "./__url-link/website__url-link.css";
 
-@media screen and (max-width: 320px) {
+.website {
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+
+    grid-area: website;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
     .website {
-       display: none;
+        width: 100%;
     }
- }
+}
+
+@media screen and (max-width: 767px) {
+    .website {
+        display: none;
+    }
+}

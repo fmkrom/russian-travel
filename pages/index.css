@@ -2,7 +2,9 @@
 
 @import "../fonts/fonts.css";
 
-@import "../blocks/root/root.css";
+@import "../blocks/body/body.css";
+
+@import "../blocks/page/page.css";
 
 @import "../blocks/header/header.css";
 

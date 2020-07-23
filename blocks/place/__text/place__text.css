@@ -3,28 +3,3 @@
     width: 100%;
     height: auto;
 }
-
-/*
-
-@media screen and (max-width: 1024px) {
-    .place__text {
-        width: 100%;
-        min-height: 440px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__text {
-        width: 100%;
-        min-height: 340px;
-    }    
-}
-
-@media screen and (max-width: 320px) {
-    .place__text {
-        width: 100%;
-        height: max-content;
-    }
-}
-*/
-

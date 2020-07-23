@@ -2,35 +2,33 @@
 @import "./__text/intro__text.css";
 @import "./__title/intro__title.css";
 @import "./__list-item/intro__list-item.css";
+@import "./__item-bold/intro__item-bold.css";
 
 .intro {
     width: 53%;
     height: max-content;
-       
-    /*ВАЖНО!!!! Подумать, как задать не-фиксированный отступ справа. Может, в процентах?* - унас была про это тема!*/
-    margin-top:92px;
-    margin-left:148px;
-    margin-right:442px;
-    margin-bottom: 92px;
 
+    margin-top: 92px;
+    margin-left: 148px;
+    margin-right: 442px;
+    margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-    width: 67%;
-    margin-left:48px;
+        width: 67%;
+        margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
         width: 93%;
-                    
+
         margin: 0 auto;
 
-        margin-top:88px;
-        margin-bottom:88px;
-                
+        margin-top: 88px;
+        margin-bottom: 88px;
     }
 }
 
@@ -38,8 +36,7 @@
     .intro {
         width: 90%;
         margin: 0 auto;
-        margin-top:64px;
-        margin-bottom:64px;
-               
+        margin-top: 64px;
+        margin-bottom: 64px;
     }
 }

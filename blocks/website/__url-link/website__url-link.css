@@ -1,18 +1,17 @@
-.website__url-link{
-color: #FFFFFF;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-decoration-line: underline;
+.website__url-link {
+   color: #ffffff;
+
+   font-size: 18px;
+   line-height: 22px;
+   text-decoration-line: underline;
 }
 
-.website__url-link:hover{
+.website__url-link:hover {
    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
-    .website__url-link {
+   .website__url-link {
        display: none;
-    }
- }
+   }
+}
