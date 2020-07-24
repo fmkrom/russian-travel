@@ -4,9 +4,15 @@
 @import "./__caption/lead__caption.css";
 
 .lead {
-    width: 76%;
+    width: 984px;
     height: max-content;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead {
+        width: 76%;
+    }
 }
 
 @media screen and (max-width: 1024px) {

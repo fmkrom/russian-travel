@@ -5,13 +5,19 @@
 @import "./__item-bold/intro__item-bold.css";
 
 .intro {
-    width: 53%;
+    width: 690px;
     height: max-content;
 
     margin-top: 92px;
     margin-left: 148px;
     margin-right: 442px;
     margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        width: 53%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -35,7 +41,7 @@
 @media screen and (max-width: 767px) {
     .intro {
         width: 90%;
-        margin: 0 auto;
+        
         margin-top: 64px;
         margin-bottom: 64px;
     }

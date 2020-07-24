@@ -13,12 +13,6 @@
     justify-content: flex-end;
 }
 
-@media screen and (max-width: 768px) {
-    .website {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .website {
         display: none;
