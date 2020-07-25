@@ -47,7 +47,7 @@
         grid-template-columns: repeat(2, 48.88%);
         grid-template-rows: repeat(6, 15.8%);
 
-        grid-column-gap: 16px;
+        grid-column-gap: 2.22%;
         grid-row-gap: 16px;
     }
 }

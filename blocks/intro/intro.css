@@ -5,7 +5,7 @@
 @import "./__item-bold/intro__item-bold.css";
 
 .intro {
-    width: 690px;
+    max-width: 690px;
     height: max-content;
 
     margin-top: 92px;
